@@ -42,7 +42,12 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class hieratest {
 
-
+# In this example, $parameter's value gets set when `hieratest` is eventually declared.
+# Class definition:
+class hieratest ($parameter_one = "default text") {
+  file {'/tmp/foo':
+    ensure  => file,
+    content => $parameter_one,
+  }
 }
