@@ -1,0 +1,18 @@
+{
+  "name": "belfast77-hieratest",
+  "version": "0.1.0",
+  "author": "belfast77",
+  "summary": "Simple Module to test Hiera by writing to the file /tmp/foo",
+  "license": "Apache-2.0",
+  "source": "https://github.com/belfast77/hieratest",
+  "project_page": "https://github.com/belfast77/hieratest",
+  "issues_url": "https://github.com/belfast77/hieratest/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "data_provider": null
+}
+
