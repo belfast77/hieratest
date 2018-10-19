@@ -2,17 +2,45 @@
   "name": "belfast77-hieratest",
   "version": "0.1.0",
   "author": "belfast77",
-  "summary": "Simple Module to test Hiera by writing to the file /tmp/foo",
+  "summary": "",
   "license": "Apache-2.0",
-  "source": "https://github.com/belfast77/hieratest",
-  "project_page": "https://github.com/belfast77/hieratest",
-  "issues_url": "https://github.com/belfast77/hieratest/issues",
+  "source": "",
   "dependencies": [
+
+  ],
+  "operatingsystem_support": [
     {
-      "name": "puppetlabs-stdlib",
-      "version_requirement": ">= 1.0.0"
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
     }
   ],
-  "data_provider": null
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.7.1",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.7.1-0-g810b982"
 }
-
